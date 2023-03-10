@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +11,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
 </head>
-
 <body class="body">
     <header class="header">
         <nav class="nav">
@@ -34,7 +32,7 @@
                     <h1>ANNA PEREPIOTKINA</h1>
                 </div>
             </section>
-            <section class="section" id="contact information">
+            <section class="section" id="contact_information">
                 <h2 class="section-title">CONTACT INFORMATION</h2>
                 <ul class="section-list">
                     <li class="section-list-item">Phone number: +375295687538</li>
@@ -42,7 +40,7 @@
                     <li class="section-list-item">Discord: Anna Perepjotkina2360</li>
                 </ul>
             </section>
-            <section class="section" id="about me">
+            <section class="section" id="about_me">
                 <h2 class="section-title">About me</h2>
                 <p class="section-list-item">I am responsible and purposeful person.<br> I started learning front-end
                     development three months ago and have already finished The Rolling Scopes JS/FE Pre-School.<br> My
@@ -65,7 +63,7 @@
                     <li class="section-list-item">RS School - stage-0 - finished</li>
                 </ul>
             </section>
-            <section class="section" id="code example">
+            <section class="section" id="code_example">
                 <h2 class="section-title">Code example</h2>
                 <pre><code>
             function showTime() {
@@ -74,9 +72,9 @@
             const date = new Date();
             const currentTime = date.toLocaleTimeString();
                     
-            const hours = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();
-            const minutes = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();
-            const seconds = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds();
+            const hours = date.getHours() &lt; 10 ? '0' + date.getHours() : date.getHours();
+            const minutes = date.getMinutes() &lt; 10 ? '0' + date.getMinutes() : date.getMinutes();
+            const seconds = date.getSeconds() &lt; 10 ? '0' + date.getSeconds() : date.getSeconds();
                     
             document.querySelector('.time').innerHTML = hours + ':' + minutes + ':' + seconds;
             setTimeout(showTime, 1000);
@@ -100,5 +98,4 @@
         </div>
     </footer>
 </body>
-
 </html>
