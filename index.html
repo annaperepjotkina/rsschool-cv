@@ -69,15 +69,12 @@
                 <h2 class="section-title">Code example</h2>
                 <pre><code>
             function showTime() {
-            const time = document.querySelector('.time');
-                    
+            const time = document.querySelector('.time');<br>
             const date = new Date();
-            const currentTime = date.toLocaleTimeString();
-                    
+            const currentTime = date.toLocaleTimeString();<br>
             const hours = date.getHours() &lt; 10 ? '0' + date.getHours() : date.getHours();
             const minutes = date.getMinutes() &lt; 10 ? '0' + date.getMinutes() : date.getMinutes();
-            const seconds = date.getSeconds() &lt; 10 ? '0' + date.getSeconds() : date.getSeconds();
-                    
+            const seconds = date.getSeconds() &lt; 10 ? '0' + date.getSeconds() : date.getSeconds();<br>
             document.querySelector('.time').innerHTML = hours + ':' + minutes + ':' + seconds;
             setTimeout(showTime, 1000);
             }
