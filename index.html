@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contact_information" class="nav-link">Contact information</a></li>
+                <li class="nav-item"><a href="#about_me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+                <li class="nav-item"><a href="#langueges" class="nav-link">Langueges</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="conteiner main-container">
+            <section class="section section-profile" id="profile">
+                <div class="section-profile-title">
+                    <img src="img/photo_2023-03-10_20-43-46.jpg" alt="My photo">
+                    <h1>ANNA PEREPIOTKINA</h1>
+                </div>
+            </section>
+            <section class="section" id="contact_information">
+                <h2 class="section-title">CONTACT INFORMATION</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">Phone number: +375295687538</li>
+                    <li class="section-list-item">E-mail: 5687538@gmail.com</li>
+                    <li class="section-list-item">Discord: Anna Perepjotkina2360</li>
+                </ul>
+            </section>
+            <section class="section" id="about_me">
+                <h2 class="section-title">About me</h2>
+                <p class="section-list-item">I am responsible and purposeful person.<br> I started learning front-end
+                    development three months ago and have already finished The Rolling Scopes JS/FE Pre-School.<br> My
+                    goal is to learn and improve my skills in front-end development.
+                    I want to be front-end developer in the future.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills and Proficiency</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">HTML5, CSS3</li>
+                    <li class="section-list-item">JavaScript Basics</li>
+                    <li class="section-list-item">Git, GitHub</li>
+                    <li class="section-list-item">VS Code</li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">Belarusian State Economic University - manager-economist</li>
+                    <li class="section-list-item">RS School - stage-0 - finished</li>
+                </ul>
+            </section>
+            <section class="section" id="code_example">
+                <h2 class="section-title">Code example</h2>
+                <pre><code>
+            function showTime() {
+            const time = document.querySelector('.time');<br>
+            const date = new Date();
+            const currentTime = date.toLocaleTimeString();<br>
+            const hours = date.getHours() &lt; 10 ? '0' + date.getHours() : date.getHours();
+            const minutes = date.getMinutes() &lt; 10 ? '0' + date.getMinutes() : date.getMinutes();
+            const seconds = date.getSeconds() &lt; 10 ? '0' + date.getSeconds() : date.getSeconds();<br>
+            document.querySelector('.time').innerHTML = hours + ':' + minutes + ':' + seconds;
+            setTimeout(showTime, 1000);
+            }
+         </code></pre>
+            </section>
+            <section class="section" id="langueges">
+                <h2 class="section-title">Langueges</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">Russian - native speaker</li>
+                    <li class="section-list-item">English - B1</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div>© 2022
+                <a href="https://github.com/annaperepjotkina" class="github nav-link">Anna Perepiotkina</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
