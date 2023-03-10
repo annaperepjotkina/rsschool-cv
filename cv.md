@@ -6,25 +6,25 @@
 * __E-mail:__ anna5687538@gmail.com
 * __Discord:__ Anna Perepjotkina#2360
 
-___
+===
 ### About me
  I'm responsible and purposeful person. I started learning front-end development three months ago and have already finished The Rolling Scopes JS/FE Pre-School. My goal is to learn and improve my skills in front-end development.
 
-___
+===
 ### Skills and Proficiency:
 HTML5, CSS3
 JavaScript Basics
 Git, GitHub
 VS Code
 
-___
+===
 ### Education
 * Belarusian State Economic University
   * manager-economist
 * RS School
   * Pre-school - finished
   * Stage 1 - in the process of studying
-___
+===
 ### Code example
 ```
 function showTime() {
@@ -40,7 +40,7 @@ const seconds = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSecon
 document.querySelector('.time').innerHTML = hours + ':' + minutes + ':' + seconds;
 setTimeout(showTime, 1000);
 ```
-___
+===
 ### Langueges
 * Russian - native speaker
 * English - A2 (B1 in process)
